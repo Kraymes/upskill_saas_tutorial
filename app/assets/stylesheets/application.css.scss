@@ -15,8 +15,21 @@
    */
    
    @import 'bootstrap-sprockets';
-   @import 'bootstrap'
+   @import 'bootstrap';
    
   h1, h2, h3 {
       font-family: 'Open Sans', sans-serif;
   }
+  
+  
+body, .navbar {
+background: #314755; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #314755 , #26a0da); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #314755 , #26a0da); 
+}
+
+.navbar  {
+  //Gradient Provided by @_ighosh at uiGradients.com
+  border: none;
+}
+  
