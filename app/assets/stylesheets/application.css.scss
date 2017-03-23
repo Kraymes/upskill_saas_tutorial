@@ -46,6 +46,12 @@ background: linear-gradient(to left, #314755 , #26a0da);
 }
 
 // Navbar Styles
+
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav  > li > a{
   color:white;
